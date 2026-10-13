@@ -1,0 +1,3873 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "920b32bd-58ff-477c-8eee-c34311a8d58c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Capacitors:Capacitor_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "${VALUE}"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Size" "0402"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer Part" "*"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ALTIUM_VALUE" "*"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*Capacitor_0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor_0402_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0.762) (xy 1.905 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.762) (xy -1.905 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.048)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.048)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistors:Resistor_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "${VALUE}"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Resistor_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ALTIUM_VALUE" "*"
+				(at -1.27 -8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Size" "0402"
+				(at -1.27 -8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*Resistor_0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor_0402_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524) (xy 0.508 1.27) (xy -0.508 0.762) (xy 0.508 0.254) (xy -0.508 -0.254)
+						(xy 0.508 -0.762) (xy -0.508 -1.27) (xy 0 -1.524) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WirelessJack:OS102011MA1Q"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Slide Switch"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OS102011MA1Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "OS102011MA1Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC Part Number" "C221530"
+				(at -3.302 -8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*OS102011MA1Q*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OS102011MA1Q_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OS102011MA1Q_2_0"
+				(rectangle
+					(start 2.54 5.08)
+					(end -15.24 -5.08)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Chassis"
+					(at -12.7 0 0)
+					(effects
+						(font
+							(size 1.8288 1.8288)
+						)
+						(justify left)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "MT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MT1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "MT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MT2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WirelessJack:SN74LVC1G3157DCKR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IC SWITCH SPDT X 1 15OHM SC70-6"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SOT65P210X110-6N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5-V, 2:1 (SPDT), 1-channel general-purpose analog switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "SN74LVC1G3157DCKR"
+				(at -18.288 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC Part Number" "C38663"
+				(at -18.288 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*SOT65P210X110-6N*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74LVC1G3157DCKR_1_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 12.7 10.16)
+					(end -12.7 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WirelessJack:Test_Point"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Test Point"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TEST_POINT_ROUND_40_GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Number" ""
+				(at -1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer Part" ""
+				(at -1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*TEST_POINT_ROUND_40_GND*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Test_Point_1_0"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Sender_SoC_Rev4-altium-import:5V_ANALOG_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5V_ANALOG"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '5V_ANALOG'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5V_ANALOG_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "5V_ANALOG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Sender_SoC_Rev4-altium-import:GND_SIGNAL_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_SIGNAL_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 40.64 49.53)
+		(end 10.16 74.93)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 176 1)
+		)
+		(uuid "4ab20200-1166-4d38-870f-416006f34616")
+	)
+	(rectangle
+		(start 109.22 52.07)
+		(end 55.88 97.79)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 176 1)
+		)
+		(uuid "65e3d5c2-72e8-4d58-a0cb-31c04ae96252")
+	)
+	(rectangle
+		(start 279.4 151.13)
+		(end 228.6 173.99)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 176 1)
+		)
+		(uuid "9d7c74a1-1ce0-4621-8fb9-0c03ac9d40cc")
+	)
+	(rectangle
+		(start 203.2 49.53)
+		(end 149.86 72.39)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 176 1)
+		)
+		(uuid "a6733e9f-ed6d-4afd-8483-53a58fbffca3")
+	)
+	(text "Signal Processing Chain"
+		(exclude_from_sim no)
+		(at 127 34.29 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "09e6655e-5e77-4205-8c44-287efc95201d")
+	)
+	(text "Buffer + Gain Stage"
+		(exclude_from_sim no)
+		(at 160.02 54.61 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c61fe20-0684-459d-952b-e538a5895b9f")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 248.92 156.21 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "730405f2-99f9-4cdf-a9e9-b9e6e0f8d9d9")
+	)
+	(text "Input Jack"
+		(exclude_from_sim no)
+		(at 15.24 54.61 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "977f3cf9-bdb1-42e6-b311-3f82effdb29d")
+	)
+	(text "Bias"
+		(exclude_from_sim no)
+		(at 78.74 57.15 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fe9cd10-736c-42e1-8393-3fc798bfa64b")
+	)
+	(text_box "Alternative device operation mode is to send stereo audio\n\nBuffer + Gain\n&\nAnti-Alias \nstages aren't populated\n\n@{\"Id\":\"JIBCZZR~{I}KRTGWUZS\",\"ObjectType\":2}\nIs populated which allows the input audio to feed straight to the ADC\nSince audio has a frequency spectrum up to 20KHz, the ADC Anti-Alias fitler is sufficient"
+		(exclude_from_sim no)
+		(at 312.42 -29.21 0)
+		(size -119.38 40.64)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "401b99b0-bea6-4077-bd9b-1f9fe89365cb")
+	)
+	(text_box "@{\"Id\":\"JIBCZZR~{I}ORPXGTXB\",\"ObjectType\":2} & @{\"Id\":\"JIBCZZR~{I}VSWOEITP\",\"ObjectType\":2} are for current limiting and help stability of OPAMP outputs. They can also be disconnected for frequency analysis of individual stages"
+		(exclude_from_sim no)
+		(at 254 105.41 0)
+		(size -55.88 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e754a07b-0dc9-470e-8543-89a93d0b68db")
+	)
+	(junction
+		(at 142.24 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "162d8fee-fbe0-4cca-b617-7814abd9fd01")
+	)
+	(junction
+		(at 139.7 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa29c95-0c90-4594-b6cd-ab7b4c46933f")
+	)
+	(junction
+		(at 190.5 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a019e567-1ce0-44f2-bbb7-de167d906616")
+	)
+	(junction
+		(at 149.86 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0881e73-bd01-4118-9fed-fdcd39441b55")
+	)
+	(junction
+		(at 223.52 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b107a862-168e-4613-a30b-716d32f71f12")
+	)
+	(junction
+		(at 142.24 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5c1a0f4-15d8-49a9-86c9-7a77b14bc23f")
+	)
+	(wire
+		(pts
+			(xy 208.28 161.29) (xy 208.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0775d67d-f757-4f02-af17-1d384915a349")
+	)
+	(wire
+		(pts
+			(xy 149.86 143.51) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4166c7-e44f-46d3-b5aa-17c6ee0f7b98")
+	)
+	(wire
+		(pts
+			(xy 142.24 186.69) (xy 142.24 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab5bed6-828b-4afc-950e-cc3e179c81ec")
+	)
+	(polyline
+		(pts
+			(xy 109.22 85.09) (xy 106.68 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0bcef88a-828a-47b0-bb34-d5e73d27f6a6")
+	)
+	(wire
+		(pts
+			(xy 139.7 153.67) (xy 149.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5595d4-8b1a-48ad-82b4-82656d618929")
+	)
+	(wire
+		(pts
+			(xy 55.88 62.23) (xy 12.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e980cc3-a087-4ff2-b428-90d5203caf88")
+	)
+	(wire
+		(pts
+			(xy 137.16 153.67) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102701d1-c851-4167-bb29-aea2a789535f")
+	)
+	(polyline
+		(pts
+			(xy 106.68 82.55) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "130e6d99-2ded-44a0-b840-f1752cde0c77")
+	)
+	(polyline
+		(pts
+			(xy 55.88 62.23) (xy 53.34 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "14ee73cd-96a6-4e39-8016-304c00b660b9")
+	)
+	(wire
+		(pts
+			(xy 142.24 148.59) (xy 142.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182740ee-06bc-47ed-8759-881b1b113155")
+	)
+	(wire
+		(pts
+			(xy 149.86 148.59) (xy 142.24 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc54a49-af41-4b1b-b653-125d03f8acc1")
+	)
+	(wire
+		(pts
+			(xy 127 156.21) (xy 124.46 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32366c38-b1b9-47c7-9254-faf202dde363")
+	)
+	(wire
+		(pts
+			(xy 160.02 123.19) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337bf5e9-350b-4dca-be51-3eacdf512379")
+	)
+	(wire
+		(pts
+			(xy 223.52 62.23) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350f95af-ed4b-4c56-8bf3-1de6a7f4e67a")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 223.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387553fc-4ffa-45d6-89c3-2ed3d5121b93")
+	)
+	(wire
+		(pts
+			(xy 203.2 128.27) (xy 203.2 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb068ba-b13d-45a5-8be2-145b85a66a67")
+	)
+	(polyline
+		(pts
+			(xy 200.66 59.69) (xy 203.2 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3d849557-d44b-4dbc-b73d-100b4c666c18")
+	)
+	(wire
+		(pts
+			(xy 139.7 153.67) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d3619d-1c81-44cb-a9e2-144e9ad0a46d")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 124.46 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a5a396-6652-4827-82d0-91cc61596dfa")
+	)
+	(wire
+		(pts
+			(xy 142.24 62.23) (xy 223.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1c3b54-33be-405d-bf2d-fe1fdac970d6")
+	)
+	(wire
+		(pts
+			(xy 190.5 125.73) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f323316-0538-4b04-badd-1b3e08c6e330")
+	)
+	(polyline
+		(pts
+			(xy 226.06 166.37) (xy 228.6 168.91)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "520287f4-d9a1-42e1-803e-8416825d2a54")
+	)
+	(polyline
+		(pts
+			(xy 228.6 168.91) (xy 226.06 171.45)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "520cba35-519c-49bd-810a-12ed3cebf707")
+	)
+	(wire
+		(pts
+			(xy 139.7 186.69) (xy 142.24 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf0eb92-16be-4758-97ca-9f54f00a4b1f")
+	)
+	(polyline
+		(pts
+			(xy 228.6 161.29) (xy 226.06 163.83)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "60852f15-d020-467b-a626-f095c749a1ab")
+	)
+	(wire
+		(pts
+			(xy 55.88 82.55) (xy 45.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ee8c5e-835d-4924-9eee-3621b8f872a8")
+	)
+	(polyline
+		(pts
+			(xy 53.34 80.01) (xy 55.88 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "656cbcbe-22be-414c-81bf-47808840a1c7")
+	)
+	(polyline
+		(pts
+			(xy 55.88 82.55) (xy 53.34 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "682c6b4c-56f7-4b19-b3e4-216ccfe017f7")
+	)
+	(polyline
+		(pts
+			(xy 203.2 62.23) (xy 200.66 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "6d1206ec-a49f-4890-bcf0-87b1abdf644a")
+	)
+	(wire
+		(pts
+			(xy 185.42 153.67) (xy 193.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6deef017-ece5-4aa2-85ca-0d59e5f1ceca")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d32002-ae16-400c-8aa8-892ab22a9b6b")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e39c17-587e-4049-bbbe-b83b7b378a94")
+	)
+	(wire
+		(pts
+			(xy 208.28 146.05) (xy 185.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c4abfe-fc01-440e-a7c3-f1888e69ce1f")
+	)
+	(wire
+		(pts
+			(xy 259.08 161.29) (xy 208.28 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7978928a-4b3c-4a80-ab9b-36e5cc6b88b4")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a36cc56-0b75-4d2e-a19a-f4ae43eba4e0")
+	)
+	(wire
+		(pts
+			(xy 142.24 181.61) (xy 142.24 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ede54e1-421b-4b2e-a7f4-272e6377cc7f")
+	)
+	(polyline
+		(pts
+			(xy 149.86 62.23) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7f1d8eaa-4333-45db-b2d9-6c083782b132")
+	)
+	(polyline
+		(pts
+			(xy 147.32 59.69) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8456b565-c40b-43b8-86b1-04baf9a5a5a0")
+	)
+	(polyline
+		(pts
+			(xy 106.68 59.69) (xy 109.22 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8d5a4564-fa5e-478a-9ba3-cad6f68298ce")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 116.84 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9184e16f-fd2b-4e3e-b11c-8dc343273625")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9b440b-57fd-4d03-86b8-49e18cb7e3aa")
+	)
+	(wire
+		(pts
+			(xy 193.04 153.67) (xy 193.04 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d81064a-e0b8-4a04-822d-e4982cc8cfac")
+	)
+	(polyline
+		(pts
+			(xy 325.12 -16.51) (xy 467.36 -16.51)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "a3cacfed-d4a2-4806-b562-bfcbdc68b7b3")
+	)
+	(wire
+		(pts
+			(xy 45.72 82.55) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0404d5-01f9-4908-a5af-6bd20f8ea458")
+	)
+	(wire
+		(pts
+			(xy 203.2 125.73) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4f473c-86f3-4e9e-92fe-0c23c3b37997")
+	)
+	(wire
+		(pts
+			(xy 45.72 69.85) (xy 12.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a24236-25a3-4bb7-a0b2-b717d776ac91")
+	)
+	(polyline
+		(pts
+			(xy 38.1 59.69) (xy 40.64 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c3ec9295-d69f-4e8f-a8c7-44d5e7b544d4")
+	)
+	(wire
+		(pts
+			(xy 223.52 62.23) (xy 223.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4270400-993b-4957-b8f6-80a8d3be6df3")
+	)
+	(wire
+		(pts
+			(xy 139.7 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c0bc33-d1fa-4522-9517-d373a64cbe80")
+	)
+	(wire
+		(pts
+			(xy 73.66 62.23) (xy 142.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4d1750-5082-42be-bcb9-6b13b4b38b62")
+	)
+	(polyline
+		(pts
+			(xy 226.06 158.75) (xy 228.6 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "cc4494ac-69dd-4857-bb19-31f06a2a7eba")
+	)
+	(polyline
+		(pts
+			(xy 38.1 67.31) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "cd7abf6f-8605-4c9b-abc4-8810669dde5a")
+	)
+	(wire
+		(pts
+			(xy 127 146.05) (xy 127 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9aea64f-2854-40cc-afd6-8b98fe75bee3")
+	)
+	(polyline
+		(pts
+			(xy 40.64 62.23) (xy 38.1 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "dc58853a-e26c-47d8-9f1d-cadc64be9dac")
+	)
+	(wire
+		(pts
+			(xy 139.7 181.61) (xy 142.24 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11fddfd-9c63-4fd0-aafd-9cae41bddd78")
+	)
+	(polyline
+		(pts
+			(xy 53.34 59.69) (xy 55.88 62.23)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e683050e-c32e-4591-8027-76b9e3c8131e")
+	)
+	(polyline
+		(pts
+			(xy 40.64 69.85) (xy 38.1 72.39)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e965b537-5428-4748-9036-fdedb6388458")
+	)
+	(polyline
+		(pts
+			(xy 109.22 62.23) (xy 106.68 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "eb7e58b9-e3c9-4aba-afe0-a203e0a637ac")
+	)
+	(wire
+		(pts
+			(xy 160.02 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec819007-92c2-49f0-96d8-973e9147cfb3")
+	)
+	(wire
+		(pts
+			(xy 185.42 138.43) (xy 190.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa64815-2454-4257-a871-dd7a80379fab")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 160.02 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79dbe74-e815-44ee-b39c-95b725afa344")
+	)
+	(wire
+		(pts
+			(xy 116.84 168.91) (xy 266.7 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb72888-f6f7-4f6b-bb97-c26b86bab214")
+	)
+	(wire
+		(pts
+			(xy 124.46 156.21) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd42ac93-4efb-4782-ac51-1cf654c0a27c")
+	)
+	(label "GAIN_OUT"
+		(at 185.42 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b2022d6-f3bc-487a-a109-d50ac288a0b6")
+	)
+	(label "SLEEVE_BIAS_OUT"
+		(at 246.38 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a8c596b-90a9-474c-913e-c0cb2ad72a5c")
+	)
+	(label "TIP_SIGNAL_IN"
+		(at 12.7 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ab9ba81-7bbc-4f6e-96ce-6531e3165f0e")
+	)
+	(label "TIP_ADC_IN"
+		(at 246.38 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cc4a89a-1da9-4a62-815b-2607c09ddb6d")
+	)
+	(label "TIP_SIGNAL_IN_BIASED"
+		(at 152.4 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51d7f6ab-4d3e-4723-a775-577d1c22d150")
+	)
+	(label "TIP_SIGNAL_IN_BIASED"
+		(at 73.66 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ff79820-9216-4150-9056-1c450063d11d")
+	)
+	(label "SLEEVE_SIGNAL_IN"
+		(at 12.7 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95ebd5e5-a807-4952-804f-afdd30cbf5bd")
+	)
+	(label "SLEEVE_BIAS_OUT"
+		(at 76.2 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea298d7c-e9b3-4c8b-8614-4728a7451159")
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_0402")
+		(at 160.02 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01d8bd7a-614d-43a9-8c5e-cf5fb2ca62fa")
+		(property "Reference" "R?"
+			(at 160.782 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 160.782 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:Resistor_0402"
+			(at 160.02 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 159.258 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "DNP"
+			(at 159.258 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 159.258 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC PART NUMBER" "C5455509"
+			(at 159.258 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "680d4940-0bf3-4dcb-ba45-a146d8923028")
+		)
+		(pin "2"
+			(uuid "016f77f5-885f-40c8-ad27-c8574828ad04")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WirelessJack:OS102011MA1Q")
+		(at 132.08 153.67 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c5e05ed-9097-4fbb-9019-7064e5d16f8b")
+		(property "Reference" "S1"
+			(at 128.651 159.512 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "Slide Switch"
+			(at 126.492 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:OS102011MA1Q"
+			(at 132.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
+			(at 132.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PART NUMBER" "C221530"
+			(at 126.492 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "OS102011MA1Q"
+			(at 126.492 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "066ecd05-675b-44bc-a1d3-516e8c472bc2")
+		)
+		(pin "2"
+			(uuid "ed230778-767c-4ece-9d62-46d96aaccc3e")
+		)
+		(pin "MT1"
+			(uuid "75422bb8-0738-46c3-aa12-67f18b48b746")
+		)
+		(pin "MT2"
+			(uuid "c7c93e03-1d64-4308-b247-ec21ee6c635d")
+		)
+		(pin "3"
+			(uuid "7482c2c1-344d-426e-b202-0569c0d1ef3d")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_0402")
+		(at 127 138.43 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d09562b-8cb8-4033-89ce-ab75848fb760")
+		(property "Reference" "R21"
+			(at 127.762 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 127.762 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:Resistor_0402"
+			(at 127 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 126.238 132.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10k"
+			(at 126.238 132.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 126.238 132.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LCSC PART NUMBER" "C25744"
+			(at 126.238 132.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "63271f39-7032-4c6d-b3e9-ca2883bd4815")
+		)
+		(pin "2"
+			(uuid "35fbd845-5f8e-4553-8388-d3ffc9b3e446")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:5V_ANALOG_BAR")
+		(at 127 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e43593c-483b-47d5-84fe-41a34e43f160")
+		(property "Reference" "#PWR?"
+			(at 127 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_ANALOG"
+			(at 127 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d9901c37-a21c-4597-a019-397931a5c235")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 203.2 132.08 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25ee3cba-ecf1-4fae-94d3-aeb5e38ef552")
+		(property "Reference" "C22"
+			(at 205.359 133.604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 205.359 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:Capacitor_0402"
+			(at 203.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 201.041 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 201.041 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1u"
+			(at 201.041 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC PART NUMBER" "C52923"
+			(at 201.041 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "013d6397-a219-4424-8d8a-d1fe15a865dd")
+		)
+		(pin "2"
+			(uuid "50e9d645-f2b4-4fa9-9055-5b51cdbe7b35")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_0402")
+		(at 223.52 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a6747f3-7871-4baf-b58e-42420c58aa62")
+		(property "Reference" "R19"
+			(at 224.282 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 224.282 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:Resistor_0402"
+			(at 223.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 222.758 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "49r9"
+			(at 222.758 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 222.758 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC PART NUMBER" "C25120"
+			(at 222.758 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "ed0a30a6-5ce1-4238-9a7b-a0277f4c1afd")
+		)
+		(pin "2"
+			(uuid "30bac54a-fbcb-4184-b5c5-b42c59ace38c")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WirelessJack:OS102011MA1Q")
+		(at 132.08 184.15 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d60a27c-56ac-443d-b6fe-99f288c0c520")
+		(property "Reference" "S1"
+			(at 116.84 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Slide Switch"
+			(at 130.81 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:OS102011MA1Q"
+			(at 132.08 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
+			(at 132.08 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PART NUMBER" "C221530"
+			(at 116.84 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "OS102011MA1Q"
+			(at 116.84 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "MT1"
+			(uuid "33a3d7a9-78dc-4152-9e8e-6a084e994a94")
+		)
+		(pin "MT2"
+			(uuid "6d7e6ba8-0d63-409a-bade-fe918559d0df")
+		)
+		(pin "3"
+			(uuid "b94c3ae7-504b-47ca-8253-7ca427e2360a")
+		)
+		(pin "1"
+			(uuid "e5f41d45-a526-4937-84f5-812b4bea1f90")
+		)
+		(pin "2"
+			(uuid "c3464001-49c9-41e3-82c1-4e263258a340")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "S1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:GND_SIGNAL_GROUND")
+		(at 193.04 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "638e1a25-7a8a-4d9a-b84b-00e955c9c36f")
+		(property "Reference" "#PWR?"
+			(at 193.04 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bac02c91-17b7-4986-9e9c-8d9f7226548f")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:5V_ANALOG_BAR")
+		(at 190.5 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68a8a084-45bf-4106-b8d2-980d0e440148")
+		(property "Reference" "#PWR?"
+			(at 190.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_ANALOG"
+			(at 190.5 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a58ad1e7-6029-468f-84f5-9b5e9af0c49a")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:GND_SIGNAL_GROUND")
+		(at 223.52 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85fcbbda-773b-4592-af57-ff889fc3581b")
+		(property "Reference" "#PWR?"
+			(at 223.52 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c7135ccc-a9ea-4b57-9d55-55f768323f25")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WirelessJack:SN74LVC1G3157DCKR")
+		(at 167.64 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b634c7e-41ef-4c6e-bfaf-f3d05f3a574a")
+		(property "Reference" "U3"
+			(at 154.94 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "IC SWITCH SPDT X 1 15OHM SC70-6"
+			(at 154.94 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:SOT65P210X110-6N"
+			(at 167.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5-V, 2:1 (SPDT), 1-channel general-purpose analog switch"
+			(at 167.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "SN74LVC1G3157DCKR"
+			(at 149.352 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC PART NUMBER" "C38663"
+			(at 149.352 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5bc9b3fb-bc5f-4628-9999-6ef0f105ade5")
+		)
+		(pin "5"
+			(uuid "72c915ff-ca61-47b6-a350-ddc0dceba4af")
+		)
+		(pin "2"
+			(uuid "7ebe5296-e688-41fe-ac82-8d67b8cb81f2")
+		)
+		(pin "6"
+			(uuid "2bd1bdf1-c226-405f-90f8-8fc2b2ec41e3")
+		)
+		(pin "4"
+			(uuid "735c33bd-3be7-4580-8a32-c48a7b195ecc")
+		)
+		(pin "3"
+			(uuid "b869461e-6ff4-4db6-b2c7-34363a2e8393")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WirelessJack:Test_Point")
+		(at 223.52 31.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f0e169e-ba50-4733-9019-34e29560ff61")
+		(property "Reference" "TP_GND1"
+			(at 218.44 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 222.25 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:TEST_POINT_ROUND_40_GND"
+			(at 223.52 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PART NUMBER" ""
+			(at 222.25 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 222.25 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "0efc221b-15b5-48e5-88da-0205ec2b8dea")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "TP_GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:GND_SIGNAL_GROUND")
+		(at 142.24 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "913957d2-6dd3-4435-83a1-8acf98f253f2")
+		(property "Reference" "#PWR?"
+			(at 142.24 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "62576ef4-e875-4e27-8f54-af50c40f179a")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:GND_SIGNAL_GROUND")
+		(at 203.2 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b21428c-9544-42fc-8501-2c8557af0afe")
+		(property "Reference" "#PWR?"
+			(at 203.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c3e985ed-42db-4075-a72d-4ed2ba9db634")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:GND_SIGNAL_GROUND")
+		(at 124.46 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a403bd60-43e5-4376-96c3-217bbda7972a")
+		(property "Reference" "#PWR?"
+			(at 124.46 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "69b5310e-8bf6-4314-8fb5-a66276c24986")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WirelessJack:Test_Point")
+		(at 223.52 54.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4fef34b-2893-41b4-bbb8-27e0d388f0bd")
+		(property "Reference" "TP_GAIN_OUT"
+			(at 218.44 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 222.25 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Sender_SoC_Rev4-import-fps:TEST_POINT_ROUND_40"
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PART NUMBER" ""
+			(at 222.25 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART" ""
+			(at 222.25 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3b1632f3-b8b1-4336-aa0b-26c4da55318a")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "TP_GAIN_OUT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Sender_SoC_Rev4-altium-import:GND_SIGNAL_GROUND")
+		(at 160.02 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5e77560-7c0e-41f4-b761-7e24960eb7f4")
+		(property "Reference" "#PWR?"
+			(at 160.02 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "741c03c6-a3bd-405e-829d-db354faace1c")
+		)
+		(instances
+			(project "Wireless_Sender_SoC_Rev4"
+				(path "/9b42611b-0c3b-4cf4-9d7a-0e5b4ed6fe43"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "3")
+		)
+	)
+	(embedded_fonts no)
+)

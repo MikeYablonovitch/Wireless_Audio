@@ -1,0 +1,8492 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1865e15a-601a-457b-a2c0-f6a803a92bc8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Capacitors:Capacitor_0201"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "${VALUE}"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_0201"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Size" "0201"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer Part" "*"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ALTIUM_VALUE" "*"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*Capacitor_0201*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor_0201_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0.762) (xy 1.905 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.762) (xy -1.905 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.048)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.048)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitors:Capacitor_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "${VALUE}"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Size" "0402"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer Part" "*"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ALTIUM_VALUE" "*"
+				(at -2.159 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*Capacitor_0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor_0402_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0.762) (xy 1.905 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -0.762) (xy -1.905 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.048)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.048)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Inductors:Ferrite Bead 0201"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "*"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Ferrite_Bead_0201"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Ferrite_Bead_0201*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Ferrite Bead 0201_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid -0.635 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.635 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid -0.635 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -0.635 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistors:Resistor_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "${VALUE}"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Resistor_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ALTIUM_VALUE" "*"
+				(at -1.27 -8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Size" "0402"
+				(at -1.27 -8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*Resistor_0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor_0402_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524) (xy 0.508 1.27) (xy -0.508 0.762) (xy 0.508 0.254) (xy -0.508 -0.254)
+						(xy 0.508 -0.762) (xy -0.508 -1.27) (xy 0 -1.524) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Silabs:EFR32MG24B220F15"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "*"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "QFN48_0p4_6sq_SIL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "No Description Available"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet_1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "RefDes" "RefDes"
+				(at 27.94 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "Type" "Type"
+				(at 27.94 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*QFN48_0p4_6sq_SIL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EFR32MG24B220F15_1_0"
+				(rectangle
+					(start 48.26 5.08)
+					(end 7.62 -58.42)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "PC00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "PC01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "PC02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "PC03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -10.16 180)
+					(length 7.62)
+					(name "PC04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -12.7 180)
+					(length 7.62)
+					(name "PC05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -15.24 180)
+					(length 7.62)
+					(name "PC06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -17.78 180)
+					(length 7.62)
+					(name "PC07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -20.32 180)
+					(length 7.62)
+					(name "PC08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -22.86 180)
+					(length 7.62)
+					(name "PC09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -45.72 0)
+					(length 7.62)
+					(name "HFXTAL_I"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -48.26 0)
+					(length 7.62)
+					(name "HFXTAL_O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 55.88 -45.72 180)
+					(length 7.62)
+					(name "RESETN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -53.34 0)
+					(length 7.62)
+					(name "RF2G4_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -40.64 0)
+					(length 7.62)
+					(name "PB05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 0)
+					(length 7.62)
+					(name "PB04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "PB03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "PB02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "PB01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "PB00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "PA00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "PA01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "PA02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "PA03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "PA04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "PA05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "PA06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "PA07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "PA08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "PA09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 55.88 -50.8 180)
+					(length 7.62)
+					(name "DECOUPLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -40.64 180)
+					(length 7.62)
+					(name "PD05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -38.1 180)
+					(length 7.62)
+					(name "PD04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -35.56 180)
+					(length 7.62)
+					(name "PD03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -33.02 180)
+					(length 7.62)
+					(name "PD02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -30.48 180)
+					(length 7.62)
+					(name "PD01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -27.94 180)
+					(length 7.62)
+					(name "PD00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EFR32MG24B220F15_2_0"
+				(rectangle
+					(start 43.18 5.08)
+					(end 7.62 -30.48)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "2 of 2"
+					(at 25.4 2.54 0)
+					(effects
+						(font
+							(size 1.8288 1.8288)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -25.4 180)
+					(length 7.62)
+					(name "RFVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "RFVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -20.32 180)
+					(length 7.62)
+					(name "PAVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VREFN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "VREFP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "VREGSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -15.24 180)
+					(length 7.62)
+					(name "VREGVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "VREGVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -5.08 180)
+					(length 7.62)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -10.16 180)
+					(length 7.62)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WirelessJack:DST210AC-32.768K"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "32.768kHz"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DST210AC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD2012-32.768K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Number" "C127491"
+				(at -5.588 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer Part" "DST210AC-32.768K"
+				(at -5.588 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*DST210AC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DST210AC-32.768K_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 1.778) (xy -1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.778) (xy 1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WirelessJack:TZ3541C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at -1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "39MHz 10pF ±8ppm"
+				(at -1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TZ3541C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "39MHz 10pF ±8ppm SMD2016-4P Crystals\r\nC5360883"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Number" "C5360883"
+				(at -15.748 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer Part" "TZ3541C"
+				(at -7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*TZ3541C*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TZ3541C_1_0"
+				(rectangle
+					(start 7.62 5.08)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "I"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3V_DIGITAL"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '3V_DIGITAL'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3V_DIGITAL_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "3V_DIGITAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MCU IO"
+		(exclude_from_sim no)
+		(at 104.14 120.65 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "60e1b818-bade-4397-8824-100a48aef1f5")
+	)
+	(text "MCU power"
+		(exclude_from_sim no)
+		(at 121.92 31.75 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c83cf567-2b92-4e4e-90f1-a8110062c528")
+	)
+	(text_box "Only available on port C&D\n\n"
+		(exclude_from_sim no)
+		(at 86.36 97.79 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "036d3916-4f61-491a-82cc-37f61109280e")
+	)
+	(text_box "CMU.CLKOUT2"
+		(exclude_from_sim no)
+		(at 38.1 100.33 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "16b39cf5-bef4-4ce8-8a12-e83c2bddea8c")
+	)
+	(text_box "EUSART1"
+		(exclude_from_sim no)
+		(at 38.1 105.41 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2b9ac1c3-1054-4604-9091-1f2a75d5e52d")
+	)
+	(text_box "CMU.CLKOUT0"
+		(exclude_from_sim no)
+		(at 38.1 95.25 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "40a464ea-df34-46c9-bf91-dffd7194a55e")
+	)
+	(text_box "Available on all ports"
+		(exclude_from_sim no)
+		(at 86.36 107.95 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "553a6960-b4f2-4180-9311-7d219fad7b78")
+	)
+	(text_box "IADC0"
+		(exclude_from_sim no)
+		(at 38.1 110.49 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "59b9bdbd-c29d-4af4-bce0-90b1db8543d6")
+	)
+	(text_box "CMU.CLKOUT1"
+		(exclude_from_sim no)
+		(at 38.1 97.79 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7c851e08-d5a3-4ac0-886e-e82b9333b39b")
+	)
+	(text_box "Only available on port A&B\n"
+		(exclude_from_sim no)
+		(at 86.36 102.87 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8bb8a263-7f7e-49fe-a62c-dda4c2235f4e")
+	)
+	(text_box "Port Restriction"
+		(exclude_from_sim no)
+		(at 86.36 92.71 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 242 204 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a5440178-83df-47fa-b946-50a8ea9ca96c")
+	)
+	(text_box "EUSART0"
+		(exclude_from_sim no)
+		(at 38.1 102.87 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a7cffb4a-9cfe-41df-aad3-1b14d296ba35")
+	)
+	(text_box "Available on all ports"
+		(exclude_from_sim no)
+		(at 86.36 110.49 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c728d515-6046-4e80-9aca-4020d94cc89a")
+	)
+	(text_box "Available on all ports\n"
+		(exclude_from_sim no)
+		(at 86.36 105.41 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ccf4a7b3-8ba5-4adc-a53f-fd3fa74aeb8f")
+	)
+	(text_box "Only available on port C&D\n"
+		(exclude_from_sim no)
+		(at 86.36 95.25 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e7c30aef-b3bc-4516-9b46-9f25c1ad5ad1")
+	)
+	(text_box "USART0"
+		(exclude_from_sim no)
+		(at 38.1 107.95 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f51bf80f-6a09-4169-a6c2-7d63cde1770c")
+	)
+	(text_box "Only available on port A&B\n"
+		(exclude_from_sim no)
+		(at 86.36 100.33 0)
+		(size -48.26 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f9d55e26-6397-4575-b4ef-dffe7ccdbfa4")
+	)
+	(text_box "Peripheral"
+		(exclude_from_sim no)
+		(at 38.1 92.71 0)
+		(size -22.86 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 242 204 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fa2608ce-208e-4d3d-a53c-39f36eedfada")
+	)
+	(junction
+		(at 193.04 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0faec3e0-9ac2-444e-8963-f1a30dacd95d")
+	)
+	(junction
+		(at 228.6 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1253739f-1c85-4ba6-9bd2-2c217b5d2e77")
+	)
+	(junction
+		(at 236.22 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ba0724-2cc4-4357-a2ad-875b41bbf021")
+	)
+	(junction
+		(at 218.44 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba56a29-f0dc-4c36-ad48-7373b3ba9d9b")
+	)
+	(junction
+		(at 142.24 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32abc3d4-248e-4a76-9431-3436ca4cb359")
+	)
+	(junction
+		(at 223.52 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a0a6fb6-d66f-4a13-b01d-71efa3ce5732")
+	)
+	(junction
+		(at 246.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d10d5fe-a80d-471b-a10f-41fe3e191318")
+	)
+	(junction
+		(at 213.36 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65cc148f-4bae-483f-9aaa-397ae26aef0b")
+	)
+	(junction
+		(at 236.22 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68ead77e-4879-41b9-8b52-215c18e6bddd")
+	)
+	(junction
+		(at 236.22 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8139b52b-92a6-4eb7-85a9-c389dc6f76e2")
+	)
+	(junction
+		(at 269.24 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912a65d2-8b07-44cc-bbfb-e11118612523")
+	)
+	(junction
+		(at 241.3 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca90105-87d3-4abb-94c3-aaf9f0846424")
+	)
+	(junction
+		(at 187.96 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8bd725-e9d9-4bfc-baff-670e2ae7d05d")
+	)
+	(junction
+		(at 264.16 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b20ffd56-c4eb-43ae-8c06-b6dbb4c6e6d4")
+	)
+	(junction
+		(at 182.88 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c669512e-3cef-4692-877a-71f81f02ff5a")
+	)
+	(junction
+		(at 142.24 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5e28a70-9010-40e5-956f-f59de56f6e31")
+	)
+	(junction
+		(at 274.32 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc1b0f74-2cb3-405f-aed5-a1be2a32e8ab")
+	)
+	(junction
+		(at 226.06 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e324fc70-bfeb-487d-b5db-754ff97a2708")
+	)
+	(junction
+		(at 246.38 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea6ce1b0-e4c5-4135-9663-251853d4ef46")
+	)
+	(junction
+		(at 10.16 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5cc66b2-c3b7-4963-b477-3d106c314494")
+	)
+	(no_connect
+		(at 124.46 130.81)
+		(uuid "1d111db3-40f9-4582-9a62-1e34b67b2e46")
+	)
+	(no_connect
+		(at 68.58 163.83)
+		(uuid "3e92e949-4b14-4db0-b705-9a1eeed0ecb3")
+	)
+	(no_connect
+		(at 149.86 72.39)
+		(uuid "43ba3348-67d9-4316-97a4-47461503dcad")
+	)
+	(no_connect
+		(at 68.58 166.37)
+		(uuid "49ce1134-960e-48d0-97f8-1ed636407f76")
+	)
+	(no_connect
+		(at 149.86 80.01)
+		(uuid "5521a8eb-8b9f-49c8-9291-27bd529e4213")
+	)
+	(no_connect
+		(at 68.58 168.91)
+		(uuid "613f79f5-23c7-4efc-8628-8c8ba42ce22d")
+	)
+	(no_connect
+		(at 68.58 171.45)
+		(uuid "6e11a9bc-761a-425a-9d21-56b4bce836d3")
+	)
+	(no_connect
+		(at 124.46 153.67)
+		(uuid "7c649956-c299-4754-9ac7-25451e8b3866")
+	)
+	(no_connect
+		(at 124.46 148.59)
+		(uuid "90d80a51-26b3-4412-a177-ecd970db7d14")
+	)
+	(no_connect
+		(at 149.86 74.93)
+		(uuid "b81b8f8d-7b40-4e1b-89d7-3956f8471877")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ad91ae-c9c8-43e0-b4b7-c598b13e0009")
+	)
+	(wire
+		(pts
+			(xy 251.46 59.69) (xy 246.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e3a709-bede-46cf-b4ca-a8a52874c6b9")
+	)
+	(wire
+		(pts
+			(xy 213.36 46.99) (xy 213.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0311f7ae-7163-41f2-b719-2dcbd4dd1193")
+	)
+	(wire
+		(pts
+			(xy 48.26 181.61) (xy 48.26 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d584a5-4b5c-4f41-bb08-4aa16355d62e")
+	)
+	(wire
+		(pts
+			(xy 124.46 151.13) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088e10de-8ece-4ac5-9837-2d270bfce46c")
+	)
+	(wire
+		(pts
+			(xy 124.46 133.35) (xy 142.24 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09197daf-3f01-4829-b5a8-c870d286527d")
+	)
+	(wire
+		(pts
+			(xy 213.36 46.99) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af7b49f-174a-4c73-972c-4b058f12f3e3")
+	)
+	(polyline
+		(pts
+			(xy 5.08 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "0b9f9f91-448e-414f-b72d-bea308bff2b8")
+	)
+	(polyline
+		(pts
+			(xy 109.22 80.01) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "0bb7108a-6a1b-42d2-9c64-31280652cbb8")
+	)
+	(wire
+		(pts
+			(xy 124.46 166.37) (xy 152.4 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7d192e-ce6c-4553-ab68-3f52864aab55")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1c1d5e-960b-4ba6-8f27-1e125bca68b5")
+	)
+	(wire
+		(pts
+			(xy 124.46 161.29) (xy 165.1 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f780498-6118-411e-a744-fa2f3b899d91")
+	)
+	(wire
+		(pts
+			(xy 165.1 161.29) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110ce8b8-f334-461f-97c3-d842da29f296")
+	)
+	(wire
+		(pts
+			(xy 264.16 46.99) (xy 264.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112ecc09-de1c-43db-bdd4-6234b4fe2758")
+	)
+	(polyline
+		(pts
+			(xy 190.5 113.03) (xy 190.5 204.47)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "1324211c-41bc-42bc-96e1-c6fa0bc3044e")
+	)
+	(wire
+		(pts
+			(xy 251.46 57.15) (xy 251.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd3dbea-3f61-4634-89bf-e12dc0456374")
+	)
+	(wire
+		(pts
+			(xy 264.16 46.99) (xy 264.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4a4499-11d5-465b-9f2a-28b1e7fa152e")
+	)
+	(wire
+		(pts
+			(xy 10.16 181.61) (xy 10.16 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c86248-b29f-41a8-a30e-fc79e902242d")
+	)
+	(wire
+		(pts
+			(xy 236.22 41.91) (xy 236.22 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233bfb76-5d60-4d32-a8b5-94e281d5995c")
+	)
+	(wire
+		(pts
+			(xy 259.08 118.11) (xy 246.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2766fe83-0814-49ca-8ba5-060819766210")
+	)
+	(wire
+		(pts
+			(xy 241.3 59.69) (xy 246.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28469594-ad25-4b8d-ba55-afc7676266dc")
+	)
+	(wire
+		(pts
+			(xy 226.06 90.17) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfbd857-64c2-4377-8321-42482685a623")
+	)
+	(wire
+		(pts
+			(xy 40.64 158.75) (xy 68.58 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c869806-9c90-42f9-8a12-a6a701e3dc8a")
+	)
+	(wire
+		(pts
+			(xy 40.64 143.51) (xy 68.58 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8e448a-7593-475e-bb6b-ff6c32239912")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 213.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3511ffda-1f44-4581-978b-6c89c05bc46e")
+	)
+	(wire
+		(pts
+			(xy 279.4 46.99) (xy 279.4 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363d069e-82c5-4fb8-b40f-acf9c10626ee")
+	)
+	(wire
+		(pts
+			(xy 160.02 135.89) (xy 160.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380d99b1-bfcf-4052-a1f0-b19e5a17f6f2")
+	)
+	(wire
+		(pts
+			(xy 193.04 49.53) (xy 187.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a60c388-97f1-4027-ac78-9c9a8e828115")
+	)
+	(wire
+		(pts
+			(xy 193.04 46.99) (xy 193.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a95c4b8-f930-413d-bada-c46fc1fcb310")
+	)
+	(wire
+		(pts
+			(xy 264.16 82.55) (xy 200.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b377472-6853-4d3b-93f7-08a9d471379d")
+	)
+	(wire
+		(pts
+			(xy 68.58 184.15) (xy 58.42 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6c33cc-ba8e-4e62-bb12-58a1882c099a")
+	)
+	(wire
+		(pts
+			(xy 200.66 77.47) (xy 236.22 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e04ad5c-366b-4373-92f0-87bf91980cb7")
+	)
+	(wire
+		(pts
+			(xy 124.46 146.05) (xy 147.32 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0c6484-5be0-44bd-bf1f-c8f388d92073")
+	)
+	(wire
+		(pts
+			(xy 124.46 168.91) (xy 142.24 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478a44d9-09a6-404b-9723-2a18d6fefab4")
+	)
+	(wire
+		(pts
+			(xy 45.72 176.53) (xy 68.58 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482ec33e-87f4-457c-bc68-9cedcdc8b21c")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad9a060-22c1-42e0-bc37-6c7f353d69ca")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9224c6-da40-49bd-b08c-91810ce27d3b")
+	)
+	(wire
+		(pts
+			(xy 124.46 181.61) (xy 132.08 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb3d46e-e189-44b7-b2e2-7159a4138a4d")
+	)
+	(wire
+		(pts
+			(xy 228.6 118.11) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50488b48-21b4-48da-bfa2-17b41e5cbf16")
+	)
+	(wire
+		(pts
+			(xy 124.46 163.83) (xy 160.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52846efc-3457-436e-aca9-3baca451a6b5")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.99) (xy 279.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c1607d-3b1d-4200-83be-baea173d86c4")
+	)
+	(wire
+		(pts
+			(xy 223.52 130.81) (xy 218.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57aa5b7f-9168-4e8d-a425-43ab85253087")
+	)
+	(wire
+		(pts
+			(xy 274.32 80.01) (xy 274.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b33cdb-4eb0-46e8-a0ca-f3ce2d491894")
+	)
+	(wire
+		(pts
+			(xy 246.38 100.33) (xy 246.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c10c231-8248-4d70-abcc-351224a83c01")
+	)
+	(wire
+		(pts
+			(xy 269.24 57.15) (xy 269.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608de549-699a-4ef5-af00-6419572fba90")
+	)
+	(wire
+		(pts
+			(xy 226.06 97.79) (xy 226.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b75759-2ceb-498c-b5cd-94a64b654110")
+	)
+	(wire
+		(pts
+			(xy 279.4 59.69) (xy 279.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61507b18-b8aa-43d9-8650-891fe61ca181")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 218.44 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626a8203-9f19-4930-934a-f74347b9af49")
+	)
+	(wire
+		(pts
+			(xy 45.72 181.61) (xy 48.26 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c8a41c-3872-426e-8c3e-61c5abf72f8a")
+	)
+	(wire
+		(pts
+			(xy 160.02 31.75) (xy 160.02 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b644ecd-3422-44bf-8ada-7a531f82464e")
+	)
+	(wire
+		(pts
+			(xy 124.46 158.75) (xy 152.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d951e68-8034-443b-a4ed-2849280d6477")
+	)
+	(wire
+		(pts
+			(xy 40.64 153.67) (xy 68.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4ba354-3850-4416-8baa-7467321e512f")
+	)
+	(wire
+		(pts
+			(xy 182.88 49.53) (xy 187.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3ecec4-6cd6-4c87-a31c-897c6dcab49c")
+	)
+	(wire
+		(pts
+			(xy 10.16 181.61) (xy 15.24 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73468d32-3687-4ac5-9288-b544918c7bed")
+	)
+	(wire
+		(pts
+			(xy 251.46 46.99) (xy 251.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c79076-9853-4314-a870-fc33cbb753cd")
+	)
+	(wire
+		(pts
+			(xy 40.64 130.81) (xy 68.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bca3ad-fc32-4317-9c6a-83fc9274247b")
+	)
+	(wire
+		(pts
+			(xy 182.88 36.83) (xy 182.88 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fc9428-bf34-4318-91bf-b100ac4f77dd")
+	)
+	(polyline
+		(pts
+			(xy 190.5 113.03) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "7827b86e-7311-4525-858b-ea850b61c0a2")
+	)
+	(wire
+		(pts
+			(xy 132.08 194.31) (xy 132.08 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7849ca1e-364f-40d4-948c-1fbc18b8b4e4")
+	)
+	(wire
+		(pts
+			(xy 124.46 138.43) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f064789-2a70-4c9d-a263-2564babe6b0e")
+	)
+	(wire
+		(pts
+			(xy 259.08 113.03) (xy 259.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d161c6-a906-4a96-ab98-366c7e2581c3")
+	)
+	(wire
+		(pts
+			(xy 269.24 49.53) (xy 269.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d9ef5f-687d-4cfb-8b0a-76e9b3e7d35c")
+	)
+	(wire
+		(pts
+			(xy 220.98 46.99) (xy 220.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860cf823-a25a-4d69-9811-c3dfd85f0544")
+	)
+	(wire
+		(pts
+			(xy 274.32 59.69) (xy 279.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86588989-9423-47e1-945b-1bd97dda058b")
+	)
+	(wire
+		(pts
+			(xy 124.46 140.97) (xy 147.32 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876453fc-b6b6-48cc-b78a-67fc69fdc623")
+	)
+	(wire
+		(pts
+			(xy 241.3 57.15) (xy 241.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c7dee0-d0ed-4357-b735-ebc0ff0ff9cc")
+	)
+	(wire
+		(pts
+			(xy 152.4 153.67) (xy 154.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e87e27-0f3d-4683-ad09-42c36cc3053f")
+	)
+	(wire
+		(pts
+			(xy 193.04 36.83) (xy 203.2 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88620bab-bcce-463d-8621-872788f83ff6")
+	)
+	(wire
+		(pts
+			(xy 223.52 130.81) (xy 228.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89798d82-4ed7-4924-8a47-c8a344fe5892")
+	)
+	(wire
+		(pts
+			(xy 228.6 130.81) (xy 228.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f49d167-6adf-48a3-9eb1-f3e6b9fc793b")
+	)
+	(wire
+		(pts
+			(xy 48.26 179.07) (xy 68.58 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ba6af2-7fc0-44bc-bfaa-e47ee078c261")
+	)
+	(wire
+		(pts
+			(xy 124.46 135.89) (xy 160.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94098421-d8b4-4412-9722-0b3e65419743")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b95fd4-5e87-4131-8a3f-8117023870ea")
+	)
+	(wire
+		(pts
+			(xy 213.36 72.39) (xy 213.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9618fa0b-547f-4948-8337-1d29f2a729c8")
+	)
+	(wire
+		(pts
+			(xy 40.64 146.05) (xy 68.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac47024-0c37-4599-b623-320930a8f32b")
+	)
+	(wire
+		(pts
+			(xy 246.38 90.17) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adc74ae-a57d-4464-bc43-58e59b10b6a8")
+	)
+	(wire
+		(pts
+			(xy 241.3 49.53) (xy 241.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c502c59-7ae4-40eb-a94c-08fb521f8bed")
+	)
+	(wire
+		(pts
+			(xy 241.3 46.99) (xy 251.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5b284d-2d3b-4a35-a036-750950fcb8c5")
+	)
+	(wire
+		(pts
+			(xy 205.74 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdb3eab-ae8b-449c-b1f1-5e4e2e368124")
+	)
+	(wire
+		(pts
+			(xy 236.22 90.17) (xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a255bc84-88bf-4faf-a79a-9f13e39ee359")
+	)
+	(wire
+		(pts
+			(xy 182.88 36.83) (xy 177.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3384560-9e9f-492a-bbc5-c79961e08039")
+	)
+	(wire
+		(pts
+			(xy 142.24 133.35) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36cd4c0-50ad-42ed-9046-819cf82c3e77")
+	)
+	(wire
+		(pts
+			(xy 226.06 100.33) (xy 236.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4460423-c0d2-4dd9-b9a8-ae4e62da01ff")
+	)
+	(wire
+		(pts
+			(xy 274.32 87.63) (xy 261.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7b0dc1-e131-497b-a09b-5d3d1a2bd660")
+	)
+	(wire
+		(pts
+			(xy 218.44 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07a004a-35db-44e7-90c9-96f93880fc5f")
+	)
+	(wire
+		(pts
+			(xy 236.22 77.47) (xy 236.22 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3964740-dc6d-4ada-9f29-6e101f70ed6e")
+	)
+	(wire
+		(pts
+			(xy 205.74 92.71) (xy 205.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a3a415-2239-4dbd-9dda-31fcd59a6526")
+	)
+	(wire
+		(pts
+			(xy 220.98 57.15) (xy 220.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9408fba-f3d3-4301-adb8-a6d8ffcaf1f5")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b941fe2b-7312-4c73-926d-96533cca5423")
+	)
+	(wire
+		(pts
+			(xy 269.24 59.69) (xy 274.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae904c1-2d48-4e9d-9aad-ef0dff104618")
+	)
+	(wire
+		(pts
+			(xy 132.08 181.61) (xy 132.08 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf47d0f-1fb0-4bc2-a1a9-9cdd0c926b60")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.99) (xy 264.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc49ddf7-46d3-4766-8b6f-cd6ace51ce29")
+	)
+	(wire
+		(pts
+			(xy 226.06 87.63) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc80693f-a976-4205-b466-4a2a6ed8bab1")
+	)
+	(wire
+		(pts
+			(xy 193.04 36.83) (xy 193.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc897b2b-b4e7-420b-9e57-bc0a63b88f8a")
+	)
+	(wire
+		(pts
+			(xy 236.22 100.33) (xy 236.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bb3a3b-8478-4e9e-a2a7-cd44fbabab99")
+	)
+	(wire
+		(pts
+			(xy 236.22 100.33) (xy 246.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3672954-78cf-4adb-bb55-a058b88c8230")
+	)
+	(wire
+		(pts
+			(xy 40.64 135.89) (xy 68.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3941a88-0c5c-4279-a806-74100bb95608")
+	)
+	(wire
+		(pts
+			(xy 203.2 67.31) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46dd9f9-5a77-4567-81c4-abcc42093c51")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac044c8-6a51-4e9b-8857-dce90e36ac10")
+	)
+	(wire
+		(pts
+			(xy 152.4 158.75) (xy 152.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4ff0c2-ba86-4f83-9797-e08e50dabeec")
+	)
+	(wire
+		(pts
+			(xy 10.16 176.53) (xy 15.24 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16348c1-9ba4-4efb-88da-b8b1da32ba16")
+	)
+	(wire
+		(pts
+			(xy 182.88 46.99) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2269888-3c02-4cb4-ad80-e13c6a253b9a")
+	)
+	(wire
+		(pts
+			(xy 160.02 36.83) (xy 167.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7edfaa4-b902-4e51-979d-d0fb6e3c14a7")
+	)
+	(wire
+		(pts
+			(xy 124.46 143.51) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe1469e-d948-4d35-94a2-ae9fe20b4bd8")
+	)
+	(wire
+		(pts
+			(xy 40.64 148.59) (xy 68.58 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd200058-088e-42e6-9a78-d4295aff5b49")
+	)
+	(wire
+		(pts
+			(xy 124.46 171.45) (xy 142.24 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def4c723-42da-4708-bffa-37c0650e87c6")
+	)
+	(wire
+		(pts
+			(xy 236.22 46.99) (xy 241.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04ade4c-7ceb-4430-b827-05708b7fc2d4")
+	)
+	(wire
+		(pts
+			(xy 40.64 133.35) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e4d88b-3ef4-4eb1-a181-f9d98b5e9528")
+	)
+	(wire
+		(pts
+			(xy 218.44 120.65) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e474ca46-c638-4d20-afe8-1ac40a606d1e")
+	)
+	(wire
+		(pts
+			(xy 40.64 138.43) (xy 68.58 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb96442f-9163-4989-8e93-089ee066c660")
+	)
+	(wire
+		(pts
+			(xy 40.64 161.29) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9ffb77-935a-4bad-a668-d0cdc11cf4e6")
+	)
+	(wire
+		(pts
+			(xy 228.6 120.65) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc2ac46-c505-4182-bc50-6d57eb7b1aa8")
+	)
+	(wire
+		(pts
+			(xy 203.2 36.83) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc9ef41-bfb0-4418-8958-3257ba782e46")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 205.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcc235a-5a55-4e3b-a744-6c23ffc0de12")
+	)
+	(wire
+		(pts
+			(xy 251.46 87.63) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee723569-ff09-4ab9-888f-a7eb6331752a")
+	)
+	(wire
+		(pts
+			(xy 40.64 151.13) (xy 68.58 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d61530-d81e-456c-b4bd-993c5edf519e")
+	)
+	(wire
+		(pts
+			(xy 10.16 189.23) (xy 10.16 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60d7a21-36e5-4165-a001-9b17a7c240b9")
+	)
+	(wire
+		(pts
+			(xy 40.64 140.97) (xy 68.58 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70ba6f2-8b2c-4029-bcbd-ced57e6a516d")
+	)
+	(wire
+		(pts
+			(xy 124.46 176.53) (xy 137.16 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7430e8c-d870-4123-977f-d9669ee473c8")
+	)
+	(wire
+		(pts
+			(xy 236.22 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74f2f31-77e2-4f0b-9597-35aca3764ff3")
+	)
+	(wire
+		(pts
+			(xy 182.88 36.83) (xy 193.04 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3c064f-5243-49ae-a0d0-3acc861150d7")
+	)
+	(label "SWDIO"
+		(at 40.64 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "019e3f9d-6b97-445c-97ff-3a6b13b034df")
+	)
+	(label "AUDIO_HOT_PLUG_DETECT"
+		(at 129.54 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "032e32b7-9054-42aa-a66e-ad64775940cd")
+	)
+	(label "LFXO_I"
+		(at 129.54 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30d430da-68fe-4faa-b734-9c51be865313")
+	)
+	(label "DAC_LRCLK"
+		(at 129.54 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "419263b4-b2a6-4cf5-8560-eff67d57efed")
+	)
+	(label "PTI_FRAME"
+		(at 129.54 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc3e144-bdec-491e-a424-c520e3e749c9")
+	)
+	(label "SDA"
+		(at 129.54 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d7cd88d-a7a5-4834-a760-9ad54b3a3b9b")
+	)
+	(label "RF_OUT"
+		(at 58.42 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "634338b9-28d1-4a49-bc4b-fd17ab3c0446")
+	)
+	(label "RGB_1_R_PWM"
+		(at 40.64 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d9f0d3e-3ad6-416a-a80e-afc6e53e26cf")
+	)
+	(label "BUTTON_IN"
+		(at 40.64 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72d51c85-5dd0-4363-8cb9-575a253d952a")
+	)
+	(label "RGB_2_G_PWM"
+		(at 40.64 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78d01934-1dcf-444f-82ae-9774be15c9fd")
+	)
+	(label "VCOM_RX"
+		(at 40.64 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b5c4180-33cf-4b64-a5b0-2a4f79a7309f")
+	)
+	(label "RESET"
+		(at 129.54 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "817a91bc-6f3b-466d-81f2-093b2fc8a987")
+	)
+	(label "RGB_1_G_PWM"
+		(at 40.64 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8afff234-a7e7-49ff-b47d-d5d4094d502b")
+	)
+	(label "RGB_1_B_PWM"
+		(at 40.64 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9363b0eb-855d-495a-8df5-e3534ca9ac5b")
+	)
+	(label "SWCLK"
+		(at 40.64 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cb9b5b1-fba8-42e6-96e5-f9fd1cbadd0d")
+	)
+	(label "HFXTAL_I"
+		(at 50.8 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac426e14-36f4-4b56-82ed-bdb513bc72c9")
+	)
+	(label "VCXO_CONTROL"
+		(at 129.54 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac49d6a8-f630-4a08-a365-481241c0f47a")
+	)
+	(label "DAC_BCLK"
+		(at 129.54 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b41fd490-4f05-4c97-b83c-2471b405af28")
+	)
+	(label "DAC_DATA"
+		(at 129.54 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c35ff31d-49ec-4fcf-a056-4c95a2a28955")
+	)
+	(label "PTI_DATA"
+		(at 129.54 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7519ed4-ea48-4b2c-8719-59c710f0392c")
+	)
+	(label "VOLUME_CONTROL"
+		(at 129.54 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8f3c353-a0bb-46ce-b32b-d55ef64c9b63")
+	)
+	(label "SCL"
+		(at 129.54 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da55bc99-a81a-45f1-87fc-c236e578bad3")
+	)
+	(label "RGB_2_B_PWM"
+		(at 40.64 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daa01a29-66b4-4051-a208-234e63299522")
+	)
+	(label "LFXO_O"
+		(at 129.54 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc8a48c3-c469-4f83-ac0c-7623a651e0e9")
+	)
+	(label "RGB_2_R_PWM"
+		(at 40.64 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4b89b56-b7de-489e-8d24-10b6b218fe71")
+	)
+	(label "HFXTAL_O"
+		(at 50.8 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed47ac8b-863c-4bc7-854c-9fd9bd9f66fd")
+	)
+	(label "FLT"
+		(at 129.54 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef28b6bd-2f88-49b9-baa9-07438e27c5cc")
+	)
+	(label "SWO"
+		(at 40.64 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb8c988e-d205-4744-b95a-c1e3aee52ef9")
+	)
+	(label "VCOM_TX"
+		(at 40.64 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fec33a6a-9e87-4b96-84b6-ab38dafcc48c")
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 259.08 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0275449a-b4e6-4609-9677-d0cc1b044a33")
+		(property "Reference" "#PWR?"
+			(at 259.08 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 259.08 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a51782de-254d-4afe-a992-2a0d7afecf3b")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 279.4 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09b366ed-42b5-48fd-89c5-1c6e9a82de46")
+		(property "Reference" "C19"
+			(at 281.559 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 281.559 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 279.4 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 277.241 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 277.241 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "10u"
+			(at 277.241 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5c1a7477-98d1-45cd-8ca3-1aa50b990fee")
+		)
+		(pin "2"
+			(uuid "600433cd-f542-4c8a-bf39-2d26b28a2592")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 220.98 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15b225fd-7d08-4053-be95-50983429b6d2")
+		(property "Reference" "C15"
+			(at 223.139 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 223.139 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 218.821 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 218.821 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100n"
+			(at 218.821 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "642d1ed5-20c2-47ed-a7ee-2bf1faa6e776")
+		)
+		(pin "1"
+			(uuid "131421c7-e4d9-4661-b608-864839b2cac5")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 269.24 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "183a399a-bdff-497c-b92a-e7aec1b493c5")
+		(property "Reference" "C18"
+			(at 271.399 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 271.399 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 269.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 267.081 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 267.081 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100n"
+			(at 267.081 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "3fe223c3-07a5-4876-999c-e19374186247")
+		)
+		(pin "1"
+			(uuid "d70ff4ed-55e1-43d2-a2d0-a69b5984cc23")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silabs:EFR32MG24B220F15")
+		(at 68.58 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19deeb0f-5022-4c57-a1f6-a3f0e1c90bbd")
+		(property "Reference" "U4"
+			(at 76.2 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EFR32MG24B220F1536IM48-B"
+			(at 76.2 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:QFN48_0p4_6sq_SIL"
+			(at 68.58 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EFR32MG24B220F1536IM48-B"
+			(at 68.58 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET" ""
+			(at 68.58 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "EFR32MG24B220F1536IM48-B"
+			(at 68.072 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "New link"
+			(at 68.072 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.ca/en/products/detail/silicon-labs/EFR32MG24B220F1536IM48-B/16184024"
+			(at 68.072 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "31"
+			(uuid "ac1437d6-ca64-4498-bbb5-f8a2b3b50388")
+		)
+		(pin "30"
+			(uuid "513db02b-f92f-4068-a21e-a0d2b1504504")
+		)
+		(pin "28"
+			(uuid "90840810-3b93-4d31-bedd-740563a7fe3e")
+		)
+		(pin "29"
+			(uuid "63af118c-9604-443f-a15f-65a15861f3a6")
+		)
+		(pin "26"
+			(uuid "f355965b-d8df-4c3e-86fb-5ecb2461be74")
+		)
+		(pin "27"
+			(uuid "c4b8bb10-0222-4afa-b465-c32ad7fe7c46")
+		)
+		(pin "3"
+			(uuid "e7b428ca-fe28-4916-9782-c40c29bf2226")
+		)
+		(pin "33"
+			(uuid "22267b09-3b17-44db-9db9-7a020d849e66")
+		)
+		(pin "15"
+			(uuid "c95a86a5-42ba-4787-a341-b38a7d2edb23")
+		)
+		(pin "10"
+			(uuid "1b3a4896-acb9-46f3-b8b2-9f519817cc8e")
+		)
+		(pin "32"
+			(uuid "cf4d0783-2664-4629-bec1-902317493f73")
+		)
+		(pin "21"
+			(uuid "efb82cbf-e5ea-48a4-b2f0-4c0ab3321651")
+		)
+		(pin "16"
+			(uuid "cf32484d-e5f1-46db-af72-9815596ee83f")
+		)
+		(pin "4"
+			(uuid "6dfaaf35-92a9-44b2-8949-8c7301b4756a")
+		)
+		(pin "34"
+			(uuid "ca6afbc0-3c9d-4b6d-b76e-9f0397c3e211")
+		)
+		(pin "36"
+			(uuid "5c2a2dad-e52a-4233-a229-0bb0a430853c")
+		)
+		(pin "35"
+			(uuid "c6b10fc8-12c2-4782-b6e5-7b65dbceec17")
+		)
+		(pin "22"
+			(uuid "275fa823-ebed-4ca9-8ddb-cfc7af732e11")
+		)
+		(pin "19"
+			(uuid "811c27a7-b62b-4c32-a14c-ad5bf5c67b65")
+		)
+		(pin "11"
+			(uuid "c37a6065-290e-4ce3-a497-818b0796b818")
+		)
+		(pin "2"
+			(uuid "e1e7d6d8-ec71-487c-9462-ede899fad833")
+		)
+		(pin "23"
+			(uuid "3e6af9fe-02b7-4bb5-a582-cebfd9ac26a1")
+		)
+		(pin "20"
+			(uuid "e88c3f95-6145-4d52-a984-e1ec05319afa")
+		)
+		(pin "6"
+			(uuid "c3934937-7331-4bda-ba17-f10f9b9edd00")
+		)
+		(pin "18"
+			(uuid "aef19629-4326-4045-b56d-c23f408b4aaf")
+		)
+		(pin "7"
+			(uuid "8ba38043-0768-41f1-b398-34d6723bfb0c")
+		)
+		(pin "9"
+			(uuid "712e5888-82dd-4af9-96d6-7fbe7a81cbdb")
+		)
+		(pin "1"
+			(uuid "606a26c9-481c-42bd-b545-9106901b04c7")
+		)
+		(pin "12"
+			(uuid "cd5e3162-b04c-4963-8ee3-dc91be2e3999")
+		)
+		(pin "5"
+			(uuid "799d0b34-4f49-4a1b-a6bf-55259ee4212b")
+		)
+		(pin "48"
+			(uuid "26279d8e-996a-424e-858a-4823478bee1c")
+		)
+		(pin "8"
+			(uuid "12fb0caa-7735-46c9-b620-0f995973fa5d")
+		)
+		(pin "47"
+			(uuid "3a6c7009-7970-4f3c-a5aa-f955b15fb0db")
+		)
+		(pin "46"
+			(uuid "969c4236-f51c-472b-9bbf-a7dc98574326")
+		)
+		(pin "45"
+			(uuid "894fb335-5ea4-4c70-a6d7-ce22753c1773")
+		)
+		(pin "44"
+			(uuid "b9c5d522-fa3e-416f-a961-bd29023cc228")
+		)
+		(pin "43"
+			(uuid "e44b11b8-fefa-4aba-b42e-4f700941c24e")
+		)
+		(pin "13"
+			(uuid "fc0642b8-3cc3-40de-9739-b611f671f081")
+		)
+		(pin "24"
+			(uuid "9fc1ac2b-00a8-42b0-8835-8c521ca00ff0")
+		)
+		(pin "42"
+			(uuid "f3582bd9-f985-4e5e-956f-6e79c506d5ba")
+		)
+		(pin "25"
+			(uuid "711c14de-54bc-41c7-a314-3363a937d11a")
+		)
+		(pin "39"
+			(uuid "726a5812-1755-4e5d-998b-64b72623ec1d")
+		)
+		(pin "38"
+			(uuid "5e983864-f69e-49d1-abac-44d5cff23395")
+		)
+		(pin "37"
+			(uuid "6c74ddc8-349e-4912-bb05-5370775cd09d")
+		)
+		(pin "17"
+			(uuid "73bbc11e-198b-4d47-8e03-dde21ab07e94")
+		)
+		(pin "41"
+			(uuid "80c17953-db9d-4d77-afa7-dba1c311df16")
+		)
+		(pin "14"
+			(uuid "966bcf52-5fbd-43b5-9040-bbcee3bef29d")
+		)
+		(pin "40"
+			(uuid "84cd2085-760f-4558-9b9c-064f599fd339")
+		)
+		(pin "49"
+			(uuid "8a0f3d44-e1e2-4c33-96f7-c34c99034b59")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 142.24 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a75570e-4e62-4366-896a-68a5312bc3be")
+		(property "Reference" "#PWR?"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 142.24 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e7cff082-d52b-4a42-b474-e07f99422b22")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WirelessJack:TZ3541C")
+		(at 30.48 179.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2bbaf0e4-6edb-497f-b3c3-33349cf80b13")
+		(property "Reference" "Y2"
+			(at 22.86 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "39MHz 10pF ±8ppm SMD2016-4P Crystals ROHS"
+			(at 22.86 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:TZ3541C"
+			(at 30.48 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "39MHz 10pF ±8ppm SMD2016-4P Crystals ROHS"
+			(at 30.48 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "TZ3541C"
+			(at 22.86 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LCSC PART NUMBER" "C5360883"
+			(at 14.732 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "3"
+			(uuid "da6b81e8-984e-4211-aa88-74a160fbaa79")
+		)
+		(pin "4"
+			(uuid "98255d19-27f5-4a2d-8dfc-8d86ad29fbda")
+		)
+		(pin "1"
+			(uuid "d700337e-2696-4196-a6f7-ac2ad78b7f76")
+		)
+		(pin "2"
+			(uuid "0261193b-2aa6-4c0c-af60-7bd63308032a")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 236.22 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c6b1188-968a-4bb3-b8d2-d751a5dd4553")
+		(property "Reference" "#PWR?"
+			(at 236.22 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "39d2f682-3723-4cdf-a752-5e6867f291ac")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 142.24 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f4879a5-8e0f-488a-8e2e-e9a063acafb6")
+		(property "Reference" "#PWR?"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "625314dd-6114-4b7b-b0ee-6a85bfb77724")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0201")
+		(at 246.38 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33b56d07-7d1e-4310-89bb-596564d7a9e4")
+		(property "Reference" "C22"
+			(at 248.539 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 248.539 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0201"
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0201"
+			(at 244.221 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1u"
+			(at 244.221 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "7ad77df0-c919-49f4-9fc4-cb577595458f")
+		)
+		(pin "1"
+			(uuid "fe7fd5ac-e509-4cc8-845e-f5b7825a8638")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 193.04 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3efc1f90-187c-475e-a2c1-3bc319968aaa")
+		(property "Reference" "C14"
+			(at 195.199 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 195.199 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 193.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 190.881 50.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 190.881 50.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100n"
+			(at 190.881 50.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "63f81c3e-d423-4705-bc11-c74f29b0e0a9")
+		)
+		(pin "2"
+			(uuid "cdb7bea6-32cd-4cc0-9850-dc1c54279806")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Inductors:Ferrite Bead 0201")
+		(at 256.54 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40c4d3e1-fedf-46a7-b381-5579991c84cc")
+		(property "Reference" "FB1"
+			(at 253.746 86.868 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "BLM03AG700SN1D"
+			(at 253.746 91.694 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Ferrite_Bead_0201"
+			(at 256.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "BLM03AG700SN1D"
+			(at 250.952 94.234 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "98f826a4-0616-4bab-8e97-5cf3251bf630")
+		)
+		(pin "1"
+			(uuid "0bbaac4f-a62c-46a9-9234-fffe9e527e24")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WirelessJack:DST210AC-32.768K")
+		(at 160.02 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fb2f173-066e-4079-9d75-ab74acfbd771")
+		(property "Reference" "Y1"
+			(at 157.226 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SMD2012-2P Crystals ROHS"
+			(at 154.432 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:DST210AC"
+			(at 160.02 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD2012-2P Crystals ROHS"
+			(at 160.02 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "DST210AC-32.768K"
+			(at 154.432 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "LCSC PART NUMBER" "C127491"
+			(at 154.432 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f49d47ac-e30e-4135-92e7-6623114b3481")
+		)
+		(pin "2"
+			(uuid "7f038e62-aa80-4c7f-91f8-4ba4fa069a53")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0201")
+		(at 228.6 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "543a0151-54a4-4f3d-8493-c88f00cad750")
+		(property "Reference" "C24"
+			(at 230.759 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 230.759 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0201"
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 226.441 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "2.2u"
+			(at 226.441 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SIZE" "0201"
+			(at 226.441 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "bb5e0fa4-2c46-4cd1-8e65-f1935bd2e243")
+		)
+		(pin "1"
+			(uuid "48b58dfe-3398-40fb-ba57-8ece1ed047f8")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 187.96 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58b5fba9-5537-4806-8289-111be18b24b9")
+		(property "Reference" "#PWR?"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c1e2f01f-621c-4ed3-9236-0465df436b81")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0201")
+		(at 236.22 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5974b0de-4866-45d0-a13b-744267499a78")
+		(property "Reference" "C21"
+			(at 238.379 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 238.379 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0201"
+			(at 236.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 234.061 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "18p"
+			(at 234.061 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SIZE" "0201"
+			(at 234.061 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "e3c4662c-f769-4f99-9fd1-78c237a4399b")
+		)
+		(pin "1"
+			(uuid "32956a4d-325c-4cde-a2c4-24353831391f")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 132.08 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d26bbf1-676f-4e04-86e1-8fff4b76365d")
+		(property "Reference" "#PWR?"
+			(at 132.08 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bcfe743c-0624-4e8f-8fb6-1fe5ef02b75b")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 274.32 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7465e062-0321-4b0e-af98-528472e4dad1")
+		(property "Reference" "#PWR?"
+			(at 274.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 274.32 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e187dcb2-cfe1-4360-813b-3165b01af0ad")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 213.36 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7794cc72-f3c0-4a9a-a81e-e2d4b5181d30")
+		(property "Reference" "#PWR?"
+			(at 213.36 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 213.36 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0f365103-28bf-4b8c-8df2-41c2ddc8fb91")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 274.32 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b161559-304c-4cf4-beb3-4237ea7a6610")
+		(property "Reference" "#PWR?"
+			(at 274.32 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d5f98be1-efc5-4314-8e3d-c2d78800396c")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 182.88 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c090b51-bf83-4d9c-8f31-22a0e6d78907")
+		(property "Reference" "C13"
+			(at 185.039 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 185.039 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 182.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 180.721 50.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 180.721 50.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1u"
+			(at 180.721 50.038 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "2539a588-9ae1-4b4f-9f10-a02ce21338eb")
+		)
+		(pin "1"
+			(uuid "4f9e031a-4418-4a1c-82a1-f0ecd3038332")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 241.3 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fcef446-ed61-4e29-bdce-78a4e0b61980")
+		(property "Reference" "C16"
+			(at 243.459 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 243.459 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 241.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 239.141 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 239.141 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1u"
+			(at 239.141 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "720817c1-1fb8-48df-90a3-40716670ae74")
+		)
+		(pin "1"
+			(uuid "ac792c06-c0da-43a0-b8c9-d28f48d16503")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0201")
+		(at 218.44 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ba179fe-320b-403b-8534-21071b2ac8fe")
+		(property "Reference" "C23"
+			(at 220.599 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 220.599 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0201"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 216.281 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "18p"
+			(at 216.281 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SIZE" "0201"
+			(at 216.281 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "cf39964b-59ff-4f46-a7b0-1ff4da49c7bf")
+		)
+		(pin "2"
+			(uuid "088f4fdc-81df-40f9-ae91-0f2f5de046b1")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 132.08 187.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93f5a0c0-9bf1-4ce6-8bb3-079efc6fc916")
+		(property "Reference" "C25"
+			(at 134.239 189.484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 134.239 192.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 132.08 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 129.921 194.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 129.921 194.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "1u"
+			(at 129.921 194.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "096fdbdf-fa85-401d-8a70-161747b836e6")
+		)
+		(pin "2"
+			(uuid "7a3b69f5-fb02-418e-ad72-9614e66fa008")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 220.98 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95f5f108-7b3f-4534-826b-b3a75f1d7edc")
+		(property "Reference" "#PWR?"
+			(at 220.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1246b0f9-c79c-4ba3-b802-fcfc2dde6790")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 160.02 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c89f732-378a-4321-8fdd-86daebc62f8b")
+		(property "Reference" "#PWR?"
+			(at 160.02 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 160.02 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2d50fddd-ce7a-4271-99fb-2086970d5261")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 223.52 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a23d9b8c-2f2a-442a-a54e-be8875f94550")
+		(property "Reference" "#PWR?"
+			(at 223.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "109fbcf0-421f-4634-8dda-53b9ccb0f091")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 246.38 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b98ec0f9-769f-4154-8610-4df2a5c9f1c3")
+		(property "Reference" "#PWR?"
+			(at 246.38 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f7f84168-9b00-494d-a2fe-6e57fb1fe1ba")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 160.02 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb2dd800-75ea-41a6-9d9d-2dff73a29449")
+		(property "Reference" "#PWR?"
+			(at 160.02 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 160.02 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b1433462-f899-407a-ade7-b4c79a76c078")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0201")
+		(at 226.06 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c169b2a6-e013-42a6-acb4-b7faeb202ab0")
+		(property "Reference" "C20"
+			(at 228.219 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 228.219 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0201"
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 223.901 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "0.5p"
+			(at 223.901 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "SIZE" "0201"
+			(at 223.901 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a3bc1e6d-ee13-4c5e-9a24-71f840639b9f")
+		)
+		(pin "2"
+			(uuid "186aabf4-1ad1-4cb8-a60a-8530d6b09ddf")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Inductors:Ferrite Bead 0201")
+		(at 241.3 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5ead725-5263-4bfb-a154-5db188482023")
+		(property "Reference" "FB2"
+			(at 238.506 117.348 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "BLM03AG700SN1D"
+			(at 238.506 122.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Ferrite_Bead_0201"
+			(at 241.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "BLM03AG700SN1D"
+			(at 235.712 124.714 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "feff9fc3-5b42-4b94-acb5-28d046ac5c85")
+		)
+		(pin "2"
+			(uuid "ee8e5adc-fff9-4b8a-9d60-06aa188d75c7")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 264.16 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd7b887e-bb76-4fdc-bdb5-994553235ec6")
+		(property "Reference" "#PWR?"
+			(at 264.16 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 264.16 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bc1d8b2c-bbcf-416b-9de7-da242aa40c72")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_0402")
+		(at 172.72 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfd479cd-4db7-4af6-a161-097a12f0ed80")
+		(property "Reference" "R30"
+			(at 169.926 36.068 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 169.926 40.132 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Resistor_0402"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 167.132 42.672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "2r"
+			(at 167.132 42.672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 167.132 42.672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d31407b9-658f-4363-a2fb-291b899bfbcb")
+		)
+		(pin "2"
+			(uuid "38ceb96c-d5df-4eeb-bd90-7376fdf0bb36")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_0402")
+		(at 142.24 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4a65908-afb1-4991-ad6c-7f2ff0ba4271")
+		(property "Reference" "R31"
+			(at 143.002 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 143.002 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Resistor_0402"
+			(at 142.24 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 141.478 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "DNP"
+			(at 141.478 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 141.478 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fb7f3331-e1bf-417c-95d4-bc5dd1106c57")
+		)
+		(pin "2"
+			(uuid "393cd55b-0ba4-4ca2-97c2-3faf175e33c9")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:3V_DIGITAL_BAR")
+		(at 236.22 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e66a37e5-c36f-4cfe-84b2-50c7b6e39a21")
+		(property "Reference" "#PWR?"
+			(at 236.22 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V_DIGITAL"
+			(at 236.22 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "464caa5d-1230-4bc5-a696-30bd6c1d741f")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silabs:EFR32MG24B220F15")
+		(at 149.86 67.31 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea68546a-15a8-41f8-b01c-a44c71089e60")
+		(property "Reference" "U4"
+			(at 157.48 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EFR32MG24B220F1536IM48-B"
+			(at 157.48 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:QFN48_0p4_6sq_SIL"
+			(at 149.86 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EFR32MG24B220F1536IM48-B"
+			(at 149.86 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DATASHEET" ""
+			(at 149.86 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "EFR32MG24B220F1536IM48-B"
+			(at 149.352 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1DESCRIPTION" "New link"
+			(at 149.352 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "COMPONENTLINK1URL" "https://www.digikey.ca/en/products/detail/silicon-labs/EFR32MG24B220F1536IM48-B/16184024"
+			(at 149.352 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "98049c78-db73-4ac8-b1a0-f4922fec3ea5")
+		)
+		(pin "21"
+			(uuid "b9d6f1da-b61d-4d58-8d6e-5dd09756086e")
+		)
+		(pin "27"
+			(uuid "0ec86126-b2bb-44be-bd11-8c19c66926f7")
+		)
+		(pin "28"
+			(uuid "37c3d37b-8817-4a95-a433-cfb6a2247fa9")
+		)
+		(pin "29"
+			(uuid "f9ce9833-1a3d-4975-96d8-88e39ebc1720")
+		)
+		(pin "26"
+			(uuid "35eafa21-1b86-40fc-8ef6-009be0df894f")
+		)
+		(pin "30"
+			(uuid "a515c912-b140-4b1a-a4b5-4df3bb0b2a0d")
+		)
+		(pin "31"
+			(uuid "8da275c6-31e1-426e-aba7-f62157d03b80")
+		)
+		(pin "32"
+			(uuid "424a2839-5ab3-4f18-a2a4-f6ab7e55a524")
+		)
+		(pin "34"
+			(uuid "4788a42d-9034-4788-b48d-9cbf7b701221")
+		)
+		(pin "35"
+			(uuid "a5fef8ef-f223-419b-b344-0159c15c6b6b")
+		)
+		(pin "19"
+			(uuid "122e3d24-e149-4ae3-a9a2-f2acd026f819")
+		)
+		(pin "22"
+			(uuid "46c38980-93ae-4751-9987-938e466b2799")
+		)
+		(pin "33"
+			(uuid "fb730b44-4bc8-420f-8bcc-72645867ee6b")
+		)
+		(pin "23"
+			(uuid "aa31a55c-29ca-4fe3-91dd-5cf5bc1f5708")
+		)
+		(pin "20"
+			(uuid "dea84015-de55-4123-908e-24323591512e")
+		)
+		(pin "18"
+			(uuid "307bc168-0e1a-4ebe-aa1a-b48af87cbdb6")
+		)
+		(pin "11"
+			(uuid "b8d6f410-19e3-4894-afbf-5376a79517e8")
+		)
+		(pin "12"
+			(uuid "c6bb07e5-47b1-4422-baab-c71a73168ff3")
+		)
+		(pin "16"
+			(uuid "3256b15a-5be2-4299-b1f6-b5d3b2535017")
+		)
+		(pin "1"
+			(uuid "24cb7445-4902-4d6f-a6b6-3a5e3482b33f")
+		)
+		(pin "43"
+			(uuid "b0157e63-c7b9-4f86-bd56-06ad56273b71")
+		)
+		(pin "37"
+			(uuid "c5a4a55c-40e7-4f92-87b8-8ba7775d8a01")
+		)
+		(pin "6"
+			(uuid "c39b1b5d-a6a4-460c-9a7f-1c61bf778fc4")
+		)
+		(pin "10"
+			(uuid "0ca49585-e056-4624-bea3-611e2a0fd11f")
+		)
+		(pin "39"
+			(uuid "b727c67d-f477-4523-a540-8614e48f9332")
+		)
+		(pin "3"
+			(uuid "c135be97-8331-47bb-87a3-ebbb23378b80")
+		)
+		(pin "13"
+			(uuid "37b7a60b-fc61-4ad0-87bf-afa7344396c8")
+		)
+		(pin "48"
+			(uuid "3b6175ba-86cb-42a9-946a-326fbc52eaeb")
+		)
+		(pin "36"
+			(uuid "0a52bf5b-fc3c-4eea-af4f-bf847a19068b")
+		)
+		(pin "14"
+			(uuid "dccab56d-d6ee-4cae-a453-3318a6e68b49")
+		)
+		(pin "38"
+			(uuid "e2b66910-d1a7-40f2-8709-8ce71c866dcd")
+		)
+		(pin "24"
+			(uuid "f68fb0b0-083e-49ba-ab7c-3c2b60c20707")
+		)
+		(pin "5"
+			(uuid "c1dbbac8-da8d-4f2c-a64d-5a1320c990aa")
+		)
+		(pin "7"
+			(uuid "b21a1ac5-a9f0-40b3-baf1-46698871188c")
+		)
+		(pin "4"
+			(uuid "726c0979-bf43-4918-ab40-65a093b2a05a")
+		)
+		(pin "8"
+			(uuid "e48f6d21-dc78-41df-b92d-6119681e5294")
+		)
+		(pin "9"
+			(uuid "663ea355-c11e-432f-99d1-b04f5749ae80")
+		)
+		(pin "47"
+			(uuid "4bc4367a-2b31-4afa-99a6-a2287524746c")
+		)
+		(pin "46"
+			(uuid "8d69c995-f9d4-4435-8504-cb6f32efba0c")
+		)
+		(pin "45"
+			(uuid "af4acbc4-0e10-4e08-b91c-957db4a600fb")
+		)
+		(pin "44"
+			(uuid "4da1fb31-f755-4410-b16f-474d76b18d36")
+		)
+		(pin "15"
+			(uuid "42a5e524-811e-4819-9a56-d4ebc6a09f8f")
+		)
+		(pin "25"
+			(uuid "168a42be-57de-4d9a-9440-bbfd79342606")
+		)
+		(pin "49"
+			(uuid "777b8322-c01b-4a9e-9103-442b39805cd6")
+		)
+		(pin "41"
+			(uuid "d0ac4649-ad99-436d-a99c-c5cab8e4f6b0")
+		)
+		(pin "40"
+			(uuid "effbe883-8e1a-4e6c-b7df-5798fefa20fa")
+		)
+		(pin "42"
+			(uuid "738028b8-a021-49fb-a7ec-8d9dc8d4c73a")
+		)
+		(pin "17"
+			(uuid "a1e69525-2079-40ad-be25-f96c0c756562")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:Capacitor_0402")
+		(at 251.46 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f071fe2a-cf47-4181-8a68-f24c0b483d5a")
+		(property "Reference" "C17"
+			(at 253.619 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 253.619 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Capacitor_0402"
+			(at 251.46 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 249.301 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 249.301 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "100n"
+			(at 249.301 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "380e3774-ce23-4735-b1bd-0aff586f331d")
+		)
+		(pin "1"
+			(uuid "4b6ff4df-3062-458a-8263-735022d9f36b")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Wireless_Receiver_SoC_Rev3-altium-import:GND_POWER_GROUND")
+		(at 10.16 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9abcb8b-ef0e-4801-b4b2-68dc4b4774f4")
+		(property "Reference" "#PWR?"
+			(at 10.16 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 10.16 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.16 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 10.16 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ea1fb7f6-d2c4-4e15-851e-f9a20780aab7")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:Resistor_0402")
+		(at 160.02 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa90c143-e39a-4e90-b1d4-afc755283b3e")
+		(property "Reference" "R32"
+			(at 160.782 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 160.782 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Wireless_Receiver_SoC_Rev3-import-fps:Resistor_0402"
+			(at 160.02 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART" "*"
+			(at 159.258 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" "DNP"
+			(at 159.258 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SIZE" "0402"
+			(at 159.258 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "40dfd2cb-4441-4075-bf5d-356adbb051a7")
+		)
+		(pin "2"
+			(uuid "4d6dec79-b428-410a-8351-5f40f833ab67")
+		)
+		(instances
+			(project "Wireless_Receiver_SoC_Rev3"
+				(path "/3b8ad06a-bb3e-4e0f-8719-fd5f6baa12d0"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "8")
+		)
+	)
+)

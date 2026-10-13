@@ -1,0 +1,9 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Capacitors") (type "Altium Designer") (uri "G:/Other computers/My Laptop/Altium/Libraries/Capacitors.PcbLib") (options "") (descr ""))
+	(lib (name "Inductors") (type "Altium Designer") (uri "G:/Other computers/My Laptop/Altium/Libraries/Inductors.PcbLib") (options "") (descr ""))
+	(lib (name "OP_AMP") (type "Altium Designer") (uri "G:/Other computers/My Laptop/Altium/Libraries/OP_AMP.PcbLib") (options "") (descr ""))
+	(lib (name "Resistors") (type "Altium Designer") (uri "G:/Other computers/My Laptop/Altium/Libraries/Resistors.PcbLib") (options "") (descr ""))
+	(lib (name "Silabs") (type "Altium Designer") (uri "G:/Other computers/My Laptop/Altium/Libraries/Silabs.PcbLib") (options "") (descr ""))
+	(lib (name "PcbLib") (type "Altium Designer") (uri "G:/Other computers/My Laptop/Altium/PcbLib.PcbLib") (options "") (descr ""))
+)
